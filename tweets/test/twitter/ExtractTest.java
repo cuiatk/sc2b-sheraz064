@@ -23,7 +23,8 @@ public class ExtractTest {
     
     private static final Instant d1 = Instant.parse("2016-02-17T10:00:00Z");
     private static final Instant d2 = Instant.parse("2016-02-17T11:00:00Z");
-  
+    private static final Instant d3 = Instant.parse("2016-02-17T12:00:00Z");
+    private static final Instant d4 = Instant.parse("2016-02-17T13:00:00Z");
     private static final Tweet tweet1 = new Tweet(1, "alyssa", "is it reasonable to talk about rivest so much? alyssa@gmail.com", d1);
     private static final Tweet tweet2 = new Tweet(2, "bbitdiddle", "@rivest talk in 30 minutes #hype, @dave's attending? ", d2);
     
